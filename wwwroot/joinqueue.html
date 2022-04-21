@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="css/join queue.css">
+</head>
+<body>
+    <div class="in_body">
+        <header>
+            <div class="image_header">
+                <img src="header white.png" class="logo" width="250">
+            </div>
+            <div class="nav_bar" id="myTopnav">
+                <ul>
+                    <li class="home"><a href="joinqueue.html">Home</a></li>
+                    <li class="create_queue"><a href="createqueue.html">Create queue</a></li>
+                    <li class="my_queues"><a href="queueadmin.html">My queues</a></li>
+                    <li class="about"><a href="about.html">About</a></li>
+                    <li class="profile" id="logout" onclick="deleteCookies()"> <a href="login.html">Logout</a> </li>
+                    <li class="profile"> <a id="myprofilea" href="profile.html"></a> </li>
+                </ul>
+            </div>
+        </header>
+        <div class="main">
+            <div class="box">
+                <h2>Join queue</h2>
+                <form action="javascript:void(0);" method="POST" onsubmit="joinQueue()">
+                    <div class="inputBox">
+                        <input type="text" name="" required="" id="idqueue">
+                        <label>Id queue</label>
+                    </div>
+                    <input type="submit" name="" value="Join">
+                </form>
+            </div>
+            <div class="about_info">
+                <h1>Stop wasting time in queues</h1>
+                use smart queue service today
+            </div>
+        </div>
+
+    </div>
+    <script src="js/profile.js" asp-append-version="true"></script>
+    <script src="js/joinqueue.js" asp-append-version="true"></script>
+</body>
+</html>
