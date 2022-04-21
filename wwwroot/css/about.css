@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
+body {
+  font: 100% "Montserrat", sans-serif;
+  color: white;
+  background-color: #C06C84;
+  margin: 0; }
+
+@media screen and (min-width: 1024px) {
+  .in_body {
+    margin: 0 20%;
+    max-height: 100%; } }
+@media screen and (max-width: 1024px) {
+  .in_body {
+    margin: 0 5%;
+    max-height: 100%; } }
+
+.image_header {
+  align-content: center;
+  margin: 15px 7%; }
+
+.nav_bar ul {
+  border-radius: 20px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #F67280; }
+  @media screen and (max-width: 700px) {
+    .nav_bar ul {
+      display: flex;
+      justify-content: space-between;
+      align-items: center; } }
+  .nav_bar ul li {
+    float: left; }
+  .nav_bar ul a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none; }
+    @media screen and (max-width: 700px) {
+      .nav_bar ul a {
+        padding: 14px 5px; } }
+    .nav_bar ul a:hover {
+      background-color: #C95D68; }
+  .nav_bar ul .profile {
+    float: right; }
+    @media screen and (max-width: 700px) {
+      .nav_bar ul .profile {
+        float: left; } }
+
+.main {
+  padding: 20px; }
+  .main a {
+    display: block;
+    padding: 30px; }
+
+footer ul {
+  border-radius: 20px;
+  align-content: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #F67280; }
+  @media screen and (min-width: 1024px) {
+    footer ul li {
+      float: left;
+      display: block;
+      color: white;
+      max-width: 30%;
+      text-align: center;
+      padding: 20px 1.5%;
+      text-decoration: none; } }
+  @media screen and (max-width: 1024px) {
+    footer ul li {
+      float: left;
+      color: white;
+      max-width: 70%;
+      text-align: center;
+      padding: 20px 28%;
+      text-decoration: none;
+      align-items: center; } }
+  footer ul li .bottom_image {
+    display: block;
+    position: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50px;
+    height: 50px;
+    background-color: #ffffff;
+    border-radius: 100%;
+    border: solid #fff 5px; }
+
+/*# sourceMappingURL=about.css.map */

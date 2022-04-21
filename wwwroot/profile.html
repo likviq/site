@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="css/profile.css">
+</head>
+<body>
+  <div class="in_body">
+    <header>
+      <div class="image_header">
+        <img src="header white.png" class="logo" width="250" >
+      </div>
+      <div class="nav_bar">
+          <ul>
+              <li class="home"><a href="joinqueue.html">Home</a></li>
+              <li class="create_queue"><a href="createqueue.html">Create queue</a></li>
+              <li class="my_queues"><a href="queueadmin.html">My queues</a></li>
+              <li class="about"><a href="about.html">About</a></li>
+              <li class="profile" id="logout" onclick="deleteCookies()"> <a href="login.html">Logout</a> </li>
+              <li class="profile"> <a id="myprofilea" href="profile.html"></a> </li>
+          </ul>
+      </div>        
+    </header>
+    
+    <div class="box">
+        <h2>Profile</h2>
+        <form>
+            <div class="inputBox">
+                <input type="text" name="" required="">
+                <label>some email@email.ua</label>
+            </div>
+            <div class="inputBox">
+                <input type="text" name="" required="">
+                <label>likvi</label>
+            </div>
+            <input type="submit" name="" value="Submit">
+        </form>     
+    </div>
+  </div>
+  <script src="js/profile.js" asp-append-version="true"></script>
+</body>
+</html>
